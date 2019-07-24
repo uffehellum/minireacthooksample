@@ -9,7 +9,7 @@ export default function App() {
   const ned = () => setCount(count - 1)
   return (
     <div>
-      <p>Du har klikket {count} gange på knappen siden start. God gået!</p>
+      <p>Du har klikket {count} gange på knappen siden start. Godt gået!</p>
       <OpKnap onClick={op} />
       <NedKnap onClick={ned} />
     </div>

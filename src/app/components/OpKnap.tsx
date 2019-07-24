@@ -1,7 +1,4 @@
 import * as React from 'react';
 
-export function OpKnap(props) {
-    return <button {...props}>Op</button>;
-}
-    // <button onClick={props.onClick}>Op</button>;
-
+export const OpKnap: (props: { onClick: () => void }) => React.ReactElement = props =>
+    <button {...props}>Op</button>;

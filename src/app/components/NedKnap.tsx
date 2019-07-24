@@ -1,7 +1,5 @@
-import * as React from 'react';
+import React from 'react';
 
-export function NedKnap(props) {
-    return <button {...props}>Ned</button>;
-}
-    // <button onClick={props.onClick}>Op</button>;
+export const NedKnap: (props: {onClick: ()=>void}) => React.ReactElement = props =>
+    <button {...props}>Ned</button>;
 
