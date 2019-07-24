@@ -1,0 +1,16 @@
+{
+  "name": "samerbuna",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.8.23",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "start": "parcel src/app/index.html --hmr-port 1235"
+  }
+}
